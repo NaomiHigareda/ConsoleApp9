@@ -23,7 +23,7 @@ namespace ConsoleApp9
             Console.WriteLine("sum: " + calSum(numbers));
             Console.WriteLine("max: " + maxVal(numbers));
             Console.WriteLine("min: "+ minVal(numbers));
-            int[] reversedArray = reverseArray(numbers);
+            int[] reversedArray = reverseArray(numbers);//
             printArray(reversedArray);
         }
         static int[] UpdateArray(int[] aArray) //create the method to take in an array then process to update the array
